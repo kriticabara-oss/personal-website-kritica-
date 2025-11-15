@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lag="en">
+<head>
+<meta charset="UTF-8">
+<title>Projects</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600&display=swap');
+
+body {
+    background: #f8f9fd;
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #1a2537;
+}
+
+header {
+    background: linear-gradient(120deg, #fbd6f5 0%, #fb9eea 100%);
+    padding: 48px 0 28px 0;
+    text-align: center;
+    margin-bottom: 0px;
+    box-shadow: 0 4px 12px rgba(135, 206, 250, 0.13);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+    color: #2953ae;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 32px;
+    padding: 12px 24px 40px 24px;
+}
+
+article {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px 22px 18px 22px;
+    box-shadow: 0 4px 18px rgba(52, 79, 185, 0.09), 0 1.5px 2.5px #b3cbe7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.17s, box-shadow 0.21s;
+    position: relative;
+}
+
+article:hover {
+    transform: translateY(-5px) scale(1.018);
+    box-shadow: 0 8px 30px #bcd1ec7b;
+    background: #fafffd;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #355d98;
+    margin-top: 10px;
+    font-size: 2em;
+    margin-bottom: 12px;
+    letter-spacing: 0.4px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 2.5px 16px rgba(22, 85, 150, 0.13);
+    margin-bottom: 20px;
+    display: block;
+    max-width: 94%;
+    height: auto;
+    object-fit: cover;
+    background: #e3e7f3;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 7px 0 12px 0;
+    line-height: 1.58;
+}
+
+strong {
+    color: #487eb0;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 12px 6% 40px 6%;
+    }
+    h1 {
+        font-size: 2.1em;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+<h1>MY PROJECTS </h1>
+</header>
+<main>
+<article>
+<h2>PROGRESS TRACKER FOR STUDENTS</h2>
+<img src="Student_progress_Dashboard" width="300" height="200" position="center">
+<p>A web application designed to help students monitor their academic progress over a semester.Students can make daily TO DO LISTS to keep track of their work. Users can enter scores, assignments, or attendance records and visualize performance using interactive charts. The dashboard highlights trends and areas for improvement, helping users set goals and track achievements.There's also a section for improvement where users can keep track of topics and concepts on which they need to work on.</p>
+<ul>
+    <li>Input and track academic scores and assignments.</li>
+    <li>Visualize progress with interactive charts.</li>
+    <li>Set academic goals and monitor achievements.</li>
+</ul><p><strong>Technologies used: Python (Flask), HTML, CSS, JavaScript, Chart.js</strong></p>
+</article>
+<article>
+<h2>MARKET PRICE TRACKER</h2>
+<img src="sss.webp" width="300" height="200" position="center">
+<p>A dynamic web application that allows users to monitor real-time prices and trends of stocks across various companies and exchanges. The tracker fetches live market data from financial APIs, enabling users to search for specific stocks, view current prices, percentage changes, and historical charts. Users can set personalized watchlists and price alerts to stay updated on market movements. The intuitive dashboard features interactive graphs for easy trend analysis, making it ideal for investors, learners, and anyone interested in the stock market. The app is designed with a user-friendly interface and adapts seamlessly to both desktop and mobile devices.</p>
+<ul><li>Search and select products to track prices.</li>
+<li>View historical price trends with interactive charts.</li> 
+<li>Uses APIs for reliable, up-to-date financial data</li>
+<li >Mobile friendly, simple interface.</li>
+</ul>
+<p><strong>Technologies used: HTML, CSS, JavaScript, Chart.js, APIs</strong></p>
+</article>
+<article>
+<h2>DOCTOR BOT</h2>
+<img src="doctor bot.jpeg" width="300" height="200" position="center">
+<p>An innovative web-based chatbot designed to assist users with healthcare-related queries and basic medical guidance. Leveraging artificial intelligence and natural language understanding, the chatbot can answer common health questions, help users assess symptoms, suggest possible next steps, and provide information about medicines, nutrition, and wellness. The chatbot maintains conversational empathy and privacy, making healthcare information accessible 24/7. It can guide users to trusted medical resources, help locate nearby clinics or pharmacies, and escalate to human experts for urgent questions. With its simple, user-friendly interface, the chatbot aims to improve health awareness and support digital-first care.</p>
+<ul>
+    <li>24/7 availability and strict user privacy.</li>
+    <li>Locates nearby hospitals, clinics, or pharmacies using user location.</li>
+    <li>Symptom checker for preliminary triage and health advice.</li>
+</ul><p><strong>Technologies used: HTML, CSS, JavaScript, open AI for chatbot capability.</strong></p>
+</article>
+</main>
+</body>
+</html>
